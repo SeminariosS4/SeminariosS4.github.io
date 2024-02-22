@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Grupo S4</title>
+    <link rel="stylesheet" type="text/css" href="index.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="S4logo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  </head>
+  <body>
+    <div class="nav-bar">
+      <a href="index.html" class="home-heading-title" style="text-decoration:none"> Grupo S4 </a>
+      <div id="PageLinks">
+	<ul class="Links-list">
+	  <li><a href="index.html" style="text-decoration:none"> Início </a></li>
+	  <li><a href="programacao.html" style="text-decoration:none"> Programação </a><li>
+	  <li><a href="galeria.html" style="text-decoration:none"> Galeria </a></li>
+	</ul>
+      </div>
+      <a href="index.html" class="home-home" style="text-decoration:none"> Início </a>
+      <a href="programacao.html" class="home-programacao" style="text-decoration:none"> Programação </a>
+      <a href="galeria.html" class="home-galeria" style="text-decoration:none"> Galeria </a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="Hamburguerslider()"> <i class="fa fa-bars"></i></a>
+    <div class="pic-container">
+      <img src="S4logobg.png" alt="Logo: poliedro em cores azul e laranja" class="home-pic">
+    </div>
+    <div class="text-container">
+      <p class="generic-text"> O S4 é um grupo de alunes do Instituto de Matemática e Estatística da Universidade de São Paulo que organiza seminários sobre diversos tópicos de matemática. Os seminários são apresentados por alunes e são construídos em uma linguagem acessível a todes es estudantes, independente da bagagem matemática.</p>
+      <p class = "generic-text"> A proposta do grupo é ser uma comunidade aberta a todes, onde qualquer pessoa pode participar, seja assistindo ou apresentando seminários sobre tópicos de matemática que julgar interessante. Caso você se interesse em apresentar sobre algum assunto que ache legal e queira compartilhar com outras pessoas, basta entrar em contato que organizamos tudo, fazemos a divulgação do seu seminário e oferecemos todo o suporte possível no processo de planejamento e criação da sua apresentação. </p>
+      <p class="generic-text">
+      Além das "atividades oficiais", o grupo também é, acima de tudo, uma comunidade, um espaço para bater-papo, socializar, fazer amigues, compartilhar ideias e transmitir conhecimento. Os seminários costumam acontecer semanalmente nas sextas-feiras das 14:00 às 15:00 no próprio IME. Você pode se direcionar à página <a href="programacao.html"> programação </a>, onde pode-se encontrar os detalhes sobre horários, temas e locais dos próximos seminários (e também dos passados).</p>
+
+    </div>
+    <script>
+      function Hamburguerslider() {
+        var x = document.getElementById("PageLinks");
+        if (x.style.display === "block") {
+        x.style.display = "none";
+        } else {
+        x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
